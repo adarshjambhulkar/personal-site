@@ -7,14 +7,7 @@ body {
   background-image: linear-gradient(0deg, #F4F9F9 0%, #B5FFFC 100%);
 
 }
-.hello{
-  font-family: 'Pacifico', cursive;
-  font-size: 50px;
-}
-.intro{
-  width: 29%;
-  margin: auto;
-}
+
 
 h1 {
   font-family: 'Sacramento', cursive;
@@ -44,6 +37,33 @@ p {
 span {
   text-decoration: underline;
 }
+a {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+
+}
+a:hover{
+  color: #EAF6F6;
+}
+hr {
+  width: 6%;
+  border-style: dotted none none none;
+  border-width: 10px;
+  border-color: #C0EDA6;
+  margin: 100px auto;
+}
+
+
+
+.hello{
+  font-family: 'Pacifico', cursive;
+  font-size: 50px;
+}
+.intro{
+  width: 44%;
+  margin: auto;
+}
+
 
 .top-container {
   padding-top: 150px;
@@ -63,7 +83,7 @@ span {
 .footer-link {
   position: relative;
   display: inline-block;
-  margin: 50px 50px;
+  margin: 50px 20px;
   font-weight: bold;
   color: #1D5C63;
   text-decoration: none;
@@ -74,7 +94,9 @@ span {
   position: relative;
   padding-bottom: 50px;
   color: #EAF6F6;
+  font-size: 80%;
   font-family: 'Montserrat', sans-serif;
+
 }
 
 .top-cloud {
@@ -92,14 +114,7 @@ span {
   left: 350px;
 }
 
-a {
-  color: #11999E;
-  font-family: 'Montserrat', sans-serif;
 
-}
-a:hover{
-  color: #EAF6F6;
-}
 
 .skill-row {
   margin: 100px auto;
@@ -123,22 +138,18 @@ a:hover{
   margin-left: 25px;
 }
 
-hr {
-  width: 6%;
-  border-style: dotted none none none;
-  border-width: 10px;
-  border-color: #C0EDA6;
-  margin: 100px auto;
-}
+
 
 .contact-me {
   margin-bottom: 60px;
+  width: 50%;
+  margin: auto;
 }
 
 .msg2 {
 
-  width: 42%;
-  margin: 40px auto;
+  width: 82%;
+  margin: 10px auto 40px;
 }
 
 .btn {
@@ -170,3 +181,4 @@ hr {
   background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
   text-decoration: none;
 }
+
